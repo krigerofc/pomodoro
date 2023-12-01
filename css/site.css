@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    background-color: salmon;
+    justify-content: center;
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    font-weight: bold;
+    background-color: rgb(70, 69, 69);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: whitesmoke;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#pomodoro{
+   margin-top: 200px;
+   width: 400px;
+   background-color: rgb(51, 51, 51) ;
+   padding: 30px;
+   border-radius: 20px;
+}
+
+
+#header{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+#contador{
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    align-items: center;
+}
+
+#contador-text{
+    font-size: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+
+#start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+#start-btn{
+    font-size: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
